@@ -248,6 +248,7 @@ public class Main {
                         }
 
                         // section to get amt disk used
+                        //
                         double diskUsed = diskInfo.get(i).getWriteBytes();
                         if (diskUsed >= 1000000 && diskUsed < 1000000000) {//makes MB if best
                             int diskUsedUnit = (int) (diskUsed / 1000000);
